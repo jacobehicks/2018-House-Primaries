@@ -1,6 +1,6 @@
 *This code relies on the rtweet, and glue packages. It assumes a list of twitter usernames have been imported into a list entitled 'users'.*
 
-`
+```
 
 for (i in 1:length(users)) {
     if (exists(paste(users[i]))) print(glue("User {users[i]} exists - skipping."))
@@ -19,4 +19,4 @@ for (i in 1:length(users)) {
     }
 }
 
-`
+```
